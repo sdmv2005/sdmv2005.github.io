@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background: #222;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.title {
+  margin: 10px;
+  font-size: 32px;
+  color: #00ffcc;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  background: #444;
+  border: 3px solid #00ffcc;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #00ffcc;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #00ccaa;
+}
+
+.hud {
+  margin-top: 10px;
+}
